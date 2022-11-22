@@ -10,7 +10,7 @@ const {Server} = require('socket.io');
 
 const io = new Server(server, {
   // cors: 'http://localhost:3000',
-  cors: 'https://marwan-ecommerce-mern-app.herokuapp.com/',
+  cors: 'https://marwan-ecommerce.onrender.com',
   methods: ['GET', 'POST', 'PATCH', "DELETE"]
 })
 
